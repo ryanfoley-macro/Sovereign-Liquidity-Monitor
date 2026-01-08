@@ -6,7 +6,7 @@ import ssl
 # --- CONFIGURATION ---
 # SECURITY WARNING: Never commit your actual API key to GitHub.
 # Use an environment variable or a config file in production.
-API_KEY = '0c08ca5ae0934d88877f40bbfdd2fb13'  # <--- REPLACE THIS WHEN RUNNING LOCALLY, BUT LEAVE IT BLANK FOR GITHUB
+API_KEY = 'PASTE API CODE HERE'  # <--- REPLACE THIS WHEN RUNNING LOCALLY, BUT LEAVE IT BLANK FOR GITHUB
 
 # --- THE MAC FIX ---
 ssl._create_default_https_context = ssl._create_unverified_context
