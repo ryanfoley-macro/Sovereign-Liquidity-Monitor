@@ -4,9 +4,8 @@ import matplotlib.pyplot as plt
 import ssl
 
 # --- CONFIGURATION ---
-# SECURITY WARNING: Never commit your actual API key to GitHub.
 # Use an environment variable or a config file in production.
-API_KEY = 'PASTE API CODE HERE'  # <--- REPLACE THIS WHEN RUNNING LOCALLY, BUT LEAVE IT BLANK FOR GITHUB
+API_KEY = 'PASTE FRED API CODE HERE'  # <--- REPLACE THIS WHEN RUNNING LOCALLY
 
 # --- THE MAC FIX ---
 ssl._create_default_https_context = ssl._create_unverified_context
@@ -81,7 +80,12 @@ def plot_liquidity(df):
     plt.legend()
     
     plt.tight_layout()
-    plt.show()
+    
+    # SAVE the file instead of just showing it
+    plt.savefig('liquidity_dashboard.png') 
+    print("Dashboard saved to 'liquidity_dashboard.png'")
+    
+    plt.show() # You can keep this or delete it
 
 # --- EXECUTION ---
 if __name__ == "__main__":
