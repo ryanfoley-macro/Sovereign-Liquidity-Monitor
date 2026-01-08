@@ -3,7 +3,7 @@
 ### *Automated Macro-Liquidity Tracking & Narrative Stress Engine*
 
 > **"In a regime of Fiscal Dominance, liquidity is not just a variable; it is the only variable."**
-> ![Liquidity Dashboard](liquidity_dashboard.png)
+> ![Liquidity Dashboard](Liquidity_Dashboard.png)
 
 ---
 
